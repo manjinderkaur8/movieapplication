@@ -1,0 +1,20 @@
+/* HomePage.css */
+@keyframes moveText {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+  
+  .animation-container {
+    overflow: hidden;
+    background-color: #FFDE59;
+  }
+  
+  .animated-text {
+    animation: moveText 50s linear infinite;
+    white-space: nowrap;
+  }
+  
